@@ -1,4 +1,4 @@
-module github.com/lbenardo/aws-tui
+module github.com/lbernardo/aws-tui
 
 go 1.26
 

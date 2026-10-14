@@ -7,7 +7,7 @@ Available services: **S3**, **EC2**, **VPC** and **SQS**.
 ## Installation
 
 ```bash
-go install github.com/lbenardo/aws-tui@latest
+go install github.com/lbernardo/aws-tui@latest
 ```
 
 ## Usage
@@ -109,8 +109,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/sns"
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/lbenardo/aws-tui/internal/service"
-	"github.com/lbenardo/aws-tui/internal/ui"
+	"github.com/lbernardo/aws-tui/internal/service"
+	"github.com/lbernardo/aws-tui/internal/ui"
 )
 
 func init() {
@@ -149,11 +149,11 @@ func init() {
 
 ```go
 import (
-	_ "github.com/lbenardo/aws-tui/internal/services/ec2"
-	_ "github.com/lbenardo/aws-tui/internal/services/s3"
-	_ "github.com/lbenardo/aws-tui/internal/services/sns"
-	_ "github.com/lbenardo/aws-tui/internal/services/sqs"
-	_ "github.com/lbenardo/aws-tui/internal/services/vpc"
+	_ "github.com/lbernardo/aws-tui/internal/services/ec2"
+	_ "github.com/lbernardo/aws-tui/internal/services/s3"
+	_ "github.com/lbernardo/aws-tui/internal/services/sns"
+	_ "github.com/lbernardo/aws-tui/internal/services/sqs"
+	_ "github.com/lbernardo/aws-tui/internal/services/vpc"
 )
 ```
 

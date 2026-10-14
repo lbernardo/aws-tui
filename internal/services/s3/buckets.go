@@ -13,7 +13,7 @@ import (
 	"github.com/aws/smithy-go"
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/lbenardo/aws-tui/internal/ui"
+	"github.com/lbernardo/aws-tui/internal/ui"
 )
 
 type bucket struct {

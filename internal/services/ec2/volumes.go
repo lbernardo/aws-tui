@@ -10,8 +10,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/lbenardo/aws-tui/internal/ec2util"
-	"github.com/lbenardo/aws-tui/internal/ui"
+	"github.com/lbernardo/aws-tui/internal/ec2util"
+	"github.com/lbernardo/aws-tui/internal/ui"
 )
 
 func newVolumesView(api *ec2.Client) ui.View {

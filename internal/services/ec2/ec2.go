@@ -4,8 +4,8 @@ package ec2
 import (
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
 
-	"github.com/lbenardo/aws-tui/internal/service"
-	"github.com/lbenardo/aws-tui/internal/ui"
+	"github.com/lbernardo/aws-tui/internal/service"
+	"github.com/lbernardo/aws-tui/internal/ui"
 )
 
 func init() {

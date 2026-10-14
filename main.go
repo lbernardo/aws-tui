@@ -10,10 +10,10 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/lbenardo/aws-tui/internal/app"
-	"github.com/lbenardo/aws-tui/internal/awsconfig"
-	"github.com/lbenardo/aws-tui/internal/service"
-	_ "github.com/lbenardo/aws-tui/internal/services"
+	"github.com/lbernardo/aws-tui/internal/app"
+	"github.com/lbernardo/aws-tui/internal/awsconfig"
+	"github.com/lbernardo/aws-tui/internal/service"
+	_ "github.com/lbernardo/aws-tui/internal/services"
 )
 
 var version = "dev"

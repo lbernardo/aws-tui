@@ -8,7 +8,7 @@ import (
 	"github.com/aymanbagabas/go-osc52/v2"
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/lbenardo/aws-tui/internal/ui"
+	"github.com/lbernardo/aws-tui/internal/ui"
 )
 
 // writeClipboard is a variable so tests do not touch the real clipboard.

@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 
-	"github.com/lbenardo/aws-tui/internal/service"
-	"github.com/lbenardo/aws-tui/internal/ui"
+	"github.com/lbernardo/aws-tui/internal/service"
+	"github.com/lbernardo/aws-tui/internal/ui"
 )
 
 func init() {

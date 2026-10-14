@@ -14,9 +14,9 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 
-	"github.com/lbenardo/aws-tui/internal/awsconfig"
-	"github.com/lbenardo/aws-tui/internal/service"
-	"github.com/lbenardo/aws-tui/internal/ui"
+	"github.com/lbernardo/aws-tui/internal/awsconfig"
+	"github.com/lbernardo/aws-tui/internal/service"
+	"github.com/lbernardo/aws-tui/internal/ui"
 )
 
 const (
